@@ -32,7 +32,7 @@ body {
     @apply inline-block px-4 py-2 rounded-lg shadow-lg bg-slate-700;
   }
   .about-text {
-    @apply flex justify-center font-semibold text-center px-32 pb-28;
+    @apply flex justify-center font-semibold text-center md:px-32 px-8 pb-28;
   }
   .about-text-outline {
     @apply ring-4 ring-black rounded-lg ring-opacity-30;
@@ -41,15 +41,15 @@ body {
     @apply flex justify-center py-10;
   }
   .sections {
-    @apply flex text-4xl font-bold justify-center align-middle pt-8;
+    @apply flex sm:text-4xl text-2xl font-bold justify-center align-middle pt-8;
   }
   .hobby-list {
     @apply flex justify-evenly text-center py-6;
   }
   .hobby-list-item {
-    @apply flex flex-col px-10 py-8 font-semibold text-2xl;
+    @apply flex flex-col px-10 py-8 font-semibold sm:text-2xl text-xl;
   }
   .hobby-list-desc{
-    @apply text-lg px-40 font-semibold;
+    @apply sm:text-lg text-base md:px-40 px-8 font-semibold;
   }
 }
