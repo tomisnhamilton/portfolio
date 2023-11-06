@@ -11,7 +11,7 @@ export default function Contact() {
         window.location.href = "https://www.linkedin.com/in/tomisnhamilton";
     }
     function linkGitHub() {
-        window.location.href = "https://github.com/CounterSpective";
+        window.location.href = "https://github.com/tomisnhamilton";
     }
     function linkInstagram() {
         window.location.href = "https://www.instagram.com/tomisnhamilton/";
